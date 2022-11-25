@@ -7,20 +7,20 @@ const Navbar = () => {
       <Link href="/" className={styles.title}>
         Lorem
       </Link>
-      <ul>
-        <li>
+      <ul className={styles.linkContainer}>
+        <li className={styles.link}>
           <Link href="/">Home</Link>
         </li>
-        <li>
+        <li className={styles.link}>
           <Link href="/package">Package</Link>
         </li>
-        <li>
+        <li className={styles.link}>
           <Link href="/series">Series</Link>
         </li>
-        <li>
+        <li className={styles.link}>
           <Link href="/signin">Sign in</Link>
         </li>
-        <li>
+        <li className={styles.link}>
           <Link href="/signout">Sign out</Link>
         </li>
       </ul>

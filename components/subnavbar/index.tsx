@@ -4,10 +4,10 @@ import styles from "./subnavbar.module.scss";
 const SubNavbar = () => {
   return (
     <ul className={styles.container}>
-      <li>
+      <li className={styles.link}>
         <Link href="/series/current">Current</Link>
       </li>
-      <li>
+      <li className={styles.link}>
         <Link href="/series/future">Future</Link>
       </li>
     </ul>
