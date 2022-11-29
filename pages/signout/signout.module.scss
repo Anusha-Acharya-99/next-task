@@ -1,0 +1,13 @@
+@import "../../styles/variables-mixins.module.scss";
+
+.parentContainer {
+  @include parentContainer;
+}
+
+.centerContainer {
+  @include centerContainer;
+}
+
+.signoutButton {
+  @include primary-button;
+}
